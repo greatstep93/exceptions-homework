@@ -55,8 +55,8 @@ class CalculateServiceTest {
     }
 
     @Test
-    @DisplayName("Ожидается ошибка NumberFormatException")
-    void When_Calculate_Expect_NumberFormatException() {
+    @DisplayName("Ожидается ошибка NotNumberException")
+    void When_Calculate_Expect_NotNumberException() {
         assertThrows(NotNumberException.class,
                 () -> calculate("a + 1"), "при вводе a + 1 ожидается исключение NotNumberException");
         assertThrows(NotNumberException.class,
