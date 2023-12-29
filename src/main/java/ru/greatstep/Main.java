@@ -3,6 +3,8 @@ package ru.greatstep;
 import static ru.greatstep.util.Constants.HELLO;
 
 import java.util.Scanner;
+
+import ru.greatstep.exceptions.BadFormatException;
 import ru.greatstep.service.CalculateService;
 
 public class Main {
